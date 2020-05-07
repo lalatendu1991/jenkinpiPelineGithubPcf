@@ -10,6 +10,6 @@ public class TestJenkinsController {
 
     @GetMapping("testJenkins")
     public String helloCICD(){
-           return "hello CICD";
+           return "hello git";
     }
 }
